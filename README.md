@@ -15,7 +15,7 @@ Forest Buddy is an inexpensive solution to forest fires. A box that can be easil
 
 ## How we Built it
 
-We have used Soil Moisture Sensor,Gas Sensor, Temperature Sensor, Humdidity Sensor and ESP8266 to push the data into the `firebase Realtime DataBase`. The web app was built with `HTML`, `CSS`, `JavaScript`, `FireBase`, `Bootstrap`, and `Google Charts` and `amCharts APIs`.
+We have used Soil Moisture Sensor,Gas Sensor, Temperature Sensor, Humdidity Sensor and ESP8266 to push the data into the `Firebase Realtime DataBase`. The web app was built with `HTML`, `CSS`, `JavaScript`, `FireBase`, `Bootstrap`, `GoogleMapsApi` and `Google Charts` and `amCharts APIs`.
 
 ## Tools
 | Logo | Tool |
