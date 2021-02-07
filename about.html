@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Forest Buddy-About</title>
+    <link rel="stylesheet" type="text/css" href="styles/aboutstyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/sidebarstyle.css">
+    
+    <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+    <!-- <script src="scripts/about.js"></script> -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src="scripts/sidebarscript.js"></script>
+
+</head>
+        <body>
+            <!-- Popper.JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+           <!-- <img src="pics/ocean.jpg" id=background> -->
+
+            <div class="wrapper" style="background-image: url(pics/23.png);  height: 100%;background-position: center;  background-repeat: no-repeat; background-size: cover;">
+                <!-- Sidebar -->
+                <nav id="sidebar" style="background-color: white;">
+                    <div class="sidebar-header">
+                        <h2 style="color: green;">Welcome Tejas</h2>
+                    </div>
+                    <div style="justify-content: center"><img src="pics/profile.jpg" style="border-radius:70px; height: 150px; width: 150px; left: 50%;text-align:center; transform: translateX(30%); border: 3px solid white">
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        <li class="active" >
+                            <a href="dashboard.html" style="color: green;">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="about.html"style="color: green">About</a>
+                        </li>
+                        <li>
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"style="color: green">Comparison Record</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu">
+                                <li>
+                                    <a href="Comaprison.html" style="color: green; ">Moisture and Heat</a>
+                                </li>
+                                <li>
+                                    <a href="Temperature.html" style="color: green;">Proportion Temperature</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Treemap.html" style="color: green;">Tree Maps</a>
+                        </li>
+                        <li>
+                            <a href="index.html" style="color: green;">Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="pagewrap">
+                  
+                   <!-- <img src="pics/arduino.jpg" id="buddy" style="height:300px; width: 400px;"> -->
+                   <div class="container-fluid" style="margin-bottom: 15px; margin-top:20px;">
+                          <div class="row" style="position:relative; text-align:center; justify-content: center; height: 400px; width: 100%;">
+                            <div class="col-3" style="background-color:#ffffff; justify-content:space-between;box-shadow: 1px 4px 7px 2px rgba(0,0,0,0.1);">
+                                
+                                
+                            <div class="heading" style="background-color: green;opacity: 0.8;">What is Forest Buddy?</div>
+                                <div class="description"> Forest Buddy is an inexpensive solution to forest fires. A box that can be easily installed near trees to quickly detect fire as it starts and report the concerned authorities. It costs very less to make and can help reduce the damages done by forest fires.</div>
+
+                            </div>
+
+                            <div style="margin-right: 3%;"></div>
+                            <div class="col-3" style="background-color:#ffffff; justify-content:space-between;box-shadow: 1px 4px 7px 2px rgba(0,0,0,0.1);">
+
+                                <div class="heading" style="background-color: green;opacity: 0.8;">Inspiration</div>
+                                <div class="description"> Bushfires in Australia are a widespread and regular occurrence that have contributed significantly to shaping the nature of the continent over millions of years. However, the fires can cause significant property damage and loss of both human and animal life. Bushfires have killed approximately 800 people in Australia since 1851, and billions of animals. Dangerous and severe bushfires continue to burn across Australia with unprecedented intensity. Every day, more and more vulnerable children and families are displaced as their homes and communities are engulfed by flames and fall to dust. So we came up with a solution.
+</div>
+
+                            </div>
+                                
+                            <div style="margin-right: 3%;"></div>
+                            <div class="col-3" style="background-color:#ffffff; justify-content:space-between;box-shadow: 1px 4px 7px 2px rgba(0,0,0,0.1);">
+                                <div class="heading"style="background-color: green;opacity: 0.8;">How We Built It</div>
+                                <div class="description" id = "builtit"> we used Soil Moisture Sensor,Gas Sensor, Temperature Sensor, Humdidity Sensor and ESP8266 to push the data into the firebase cloud. The web app was built with HTML, CSS, JavaScript, Bootstrap, and Google Charts and amCharts APIs. </div>
+                            </div>
+                          </div> 
+
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row" style="height:10px;"></div>
+                    </div>
+                    <div class="container-fluid" style="margin-top:15px;">
+                          <div class="row" style="position:relative; text-align:center; justify-content: center; height: 400px; width: 100%; margin-top: 15px; margin-bottom: 15px;">
+                            <div class="col-3" style="background-color:#ffffff; justify-content:space-between;box-shadow: 1px 4px 7px 2px rgba(0,0,0,0.1);">
+                                
+                                <div class="heading" style="background-color: green;opacity: 0.8;">What's Next?</div>
+                                <div class="description">We could further develop the system into a mesh network. This network will further increase the range of the system and we would be able to detect fire anywhere in the forest and report it to the respective authorities. </div>
+
+                            </div>
+
+                            <div style="margin-right: 3%;"></div>
+                            <div class="col-3" style="background-color:#ffffff; justify-content:space-between;box-shadow: 1px 4px 7px 2px rgba(0,0,0,0.1);">
+                                <div class="heading" style="background-color: green;opacity: 0.8;">Challenges/Accomplishments</div>
+                                <div class="description">Figuring out how to assemble the hardware into a small form was one of the most difficult parts. We wanted the hardware to be cost effective and light-weight. We are most proud of the UI/UX design that animates upon loading, giving the app a modern feel. </div>
+
+                            </div>
+                            <div style="margin-right: 3%;"></div>
+                            <div class="col-3" style="background-color:#ffffff; justify-content:space-between;box-shadow: 1px 4px 7px 2px rgba(0,0,0,0.1);">
+                                <div class="heading" style="background-color: green;opacity: 0.8;">What We Learned</div>
+                                <div class="description">We learned to create a dynamic and modern application that helps conserve water. Each one of our team members improved our software and hardware skills. We did research to see what made a modern app visually appealing and attempted for a minimalist look. </div>
+                            </div>
+                          </div> 
+
+                    </div>
+                    <div id="bottom"></div>
+
+ 
+
+
+                </div> 
+
+            </div>
+            
+        </body>
+</html>
